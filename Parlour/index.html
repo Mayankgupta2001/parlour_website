@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chérie Beauty Salon</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="color: white; font-weight: 600; font-size: 30px;">CHÉRIE</a>
+        <button style="background-color: white;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Service Menu</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="appointment.html">Book Appointment</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="philosophy.html">Philosophy</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="gift_cards.html">Gift Cards</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>&nbsp;&nbsp;
+                <li class="nav-item">
+                    <a class="nav-link" href="tips.html">Tips</a>
+                </li>
+            </ul>
+        </div>
+        <div style="margin-right: 25px;">
+            <!-- <a href="#" class="btn btn-outline-light">Book Appointment</a> -->
+             <a href=""><i style="color: whitesmoke; font-size: 24px;" class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+             <a href=""><i style="color: whitesmoke; font-size: 24px;" class="fab fa-facebook"></i></a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section">
+    <h1>Relax, Indulge, Enjoy and Love <br> Yourself.</h1>
+    <div>
+        <a href="appointment.html" class="btn btn-outline-light">Book Appointment</a>
+        <a href="service.html" class="btn btn-outline-light">View Service Menu</a>
+    </div>
+    <div class="container" style="margin-bottom: -200px; margin-top: 100px;">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <h5 class="mt-3" style="font-family: Jost;">Contact</h5>
+            <p>T: 070 9485 7568<br>info@beautysalon.com</p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="mt-3" style="font-family: Jost;">Hours</h5>
+            <p>Mon to Fri: 7:30 am — 1:00 am<br>Sat: 9:00 am — 1:00 am<br>Sun: 9:00 am — 11:30 pm</p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="mt-3" style="font-family: Jost;">Location</h5>
+            <p>85 Royal Mint Street,<br>London, E1 8LG, UK</p>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- <div class="container-fluid">
+    <div class="container">
+        <div class="service-menu-home">
+            <h2>Service Menu</h2>
+            <div class="row mt-5">
+                <div class="col-md-2 service-item-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M27.9443 19.3893C27.7201 15.6531 30.6897 12.5 34.4326 12.5H40.5674C44.3103 12.5 47.2799 15.6531 47.0557 19.3893L45.5137 45.0898C45.4662 45.882 44.8099 46.5 44.0164 46.5H30.9836C30.1901 46.5 29.5338 45.882 29.4863 45.0898L27.9443 19.3893Z" fill="#E5EEF0" stroke="black"></path><path d="M28.5 34.5C32.3333 35 41.3 34.5 46.5 28.5" stroke="black"></path><rect x="35.5" y="9.5" width="5" height="3" fill="white" stroke="black"></rect><path d="M34.5 7C34.5 5.61929 35.6193 4.5 37 4.5H39C40.3807 4.5 41.5 5.61929 41.5 7V9.5H34.5V7Z" fill="white" stroke="black"></path><path d="M37.5 38V22" stroke="black"></path><path d="M40.91 18.8471C41.331 18.7928 41.7481 18.8356 42.3041 18.901C42.2931 18.9895 42.2829 19.0759 42.2729 19.1596C42.2622 19.2504 42.2518 19.3379 42.2412 19.4214C42.2012 19.7377 42.1567 20.0148 42.0785 20.2799C41.9292 20.7858 41.6443 21.2943 40.9327 21.8827C40.2043 22.485 39.6735 22.6965 39.1717 22.7612C38.7506 22.8154 38.3335 22.7727 37.7775 22.7073C37.7885 22.6188 37.7988 22.5323 37.8087 22.4486C37.8194 22.3579 37.8298 22.2703 37.8404 22.1869C37.8804 21.8705 37.925 21.5934 38.0032 21.3283C38.1524 20.8224 38.4373 20.314 39.1489 19.7256C39.8773 19.1233 40.4081 18.9117 40.91 18.8471Z" fill="white" stroke="black"></path><path d="M34.1716 18.8471C33.7505 18.7928 33.3334 18.8356 32.7774 18.901C32.7884 18.9895 32.7987 19.0759 32.8086 19.1596C32.8194 19.2504 32.8297 19.3379 32.8403 19.4214C32.8803 19.7377 32.9249 20.0148 33.0031 20.2799C33.1523 20.7858 33.4373 21.2943 34.1488 21.8827C34.8772 22.485 35.408 22.6965 35.9099 22.7612C36.3309 22.8154 36.748 22.7727 37.3041 22.7073C37.293 22.6188 37.2828 22.5323 37.2729 22.4486C37.2621 22.3579 37.2517 22.2703 37.2412 22.1869C37.2011 21.8705 37.1566 21.5934 37.0784 21.3283C36.9292 20.8224 36.6442 20.314 35.9326 19.7256C35.2043 19.1233 34.6735 18.9117 34.1716 18.8471Z" fill="white" stroke="black"></path><path d="M40.91 24.8471C41.331 24.7928 41.7481 24.8356 42.3041 24.901C42.2931 24.9895 42.2829 25.0759 42.2729 25.1596C42.2622 25.2504 42.2518 25.3379 42.2412 25.4214C42.2012 25.7377 42.1567 26.0148 42.0785 26.2799C41.9292 26.7858 41.6443 27.2943 40.9327 27.8827C40.2043 28.485 39.6735 28.6965 39.1717 28.7612C38.7506 28.8154 38.3335 28.7727 37.7775 28.7073C37.7885 28.6188 37.7988 28.5323 37.8087 28.4486C37.8194 28.3579 37.8298 28.2703 37.8404 28.1869C37.8804 27.8705 37.925 27.5934 38.0032 27.3283C38.1524 26.8224 38.4373 26.314 39.1489 25.7256C39.8773 25.1233 40.4081 24.9117 40.91 24.8471Z" fill="white" stroke="black"></path><path d="M34.1716 24.8471C33.7505 24.7928 33.3334 24.8356 32.7774 24.901C32.7884 24.9895 32.7987 25.0759 32.8086 25.1596C32.8194 25.2504 32.8297 25.3379 32.8403 25.4214C32.8803 25.7377 32.9249 26.0148 33.0031 26.2799C33.1523 26.7858 33.4373 27.2943 34.1488 27.8827C34.8772 28.485 35.408 28.6965 35.9099 28.7612C36.3309 28.8154 36.748 28.7727 37.3041 28.7073C37.293 28.6188 37.2828 28.5323 37.2729 28.4486C37.2621 28.3579 37.2517 28.2703 37.2412 28.1869C37.2011 27.8705 37.1566 27.5934 37.0784 27.3283C36.9292 26.8224 36.6442 26.314 35.9326 25.7256C35.2043 25.1233 34.6735 24.9117 34.1716 24.8471Z" fill="white" stroke="black"></path><path d="M25.5 40.8049C25.5 42.2219 24.3274 43.6419 22.1168 44.7375C19.9374 45.8176 16.8916 46.5 13.5 46.5C11.2761 46.5 9.20957 46.3757 7.43532 46.0399C5.65568 45.7031 4.21191 45.161 3.19818 44.3557C2.67875 43.9431 2.25021 43.3307 1.95106 42.6656C1.65141 41.9994 1.5 41.3213 1.5 40.8049C1.5 40.2789 1.65592 39.4506 1.96309 38.6335C2.27306 37.8089 2.70461 37.0829 3.19818 36.6909C3.93022 36.1094 4.83516 35.4864 5.87211 35.0745C6.86068 34.6817 8.0054 34.5432 9.30083 34.5092C10.0696 34.489 10.8532 34.5052 11.6751 34.5221C12.261 34.5342 12.8665 34.5466 13.5 34.5466C16.8766 34.5466 19.916 35.3637 22.0952 36.5794C24.3059 37.8126 25.5 39.3715 25.5 40.8049Z" fill="#E5EEF0" stroke="black"></path><path d="M22.5 30.7111C22.5 31.577 21.6989 32.5264 20.0118 33.2881C18.371 34.0288 16.0692 34.5 13.5 34.5C11.8121 34.5 10.2468 34.414 8.90513 34.1827C7.55692 33.9503 6.47731 33.578 5.72737 33.0353C5.35324 32.7646 5.04232 32.3609 4.82457 31.9199C4.60546 31.4761 4.5 31.034 4.5 30.7111C4.5 30.3775 4.61096 29.828 4.83844 29.2767C5.06772 28.7211 5.38109 28.2475 5.72737 27.9969C6.27863 27.5981 6.95693 27.1731 7.73265 26.8923C8.46987 26.6255 9.32873 26.5298 10.3106 26.5064C10.8941 26.4924 11.4858 26.5035 12.1083 26.5152C12.5536 26.5236 13.0148 26.5323 13.5 26.5323C16.0556 26.5323 18.3512 27.0959 19.991 27.9292C20.8113 28.346 21.4497 28.8212 21.8771 29.3099C22.3043 29.7984 22.5 30.2747 22.5 30.7111Z" fill="#E5EEF0" stroke="black"></path><path d="M19.5 23.6642C19.5 24.3008 18.9863 25.0042 17.8679 25.5781C16.7758 26.1386 15.2323 26.5 13.5 26.5C12.3513 26.5 11.2946 26.4334 10.3942 26.2569C9.48891 26.0795 8.78272 25.7987 8.29896 25.4008C8.06565 25.2089 7.86191 24.9131 7.71604 24.5773C7.56994 24.241 7.5 23.9061 7.5 23.6642C7.5 23.413 7.57413 22.9931 7.72742 22.5708C7.88381 22.14 8.09072 21.7956 8.29896 21.6243C8.67131 21.318 9.12055 20.9994 9.62773 20.7908C10.1007 20.5962 10.6605 20.5229 11.3232 20.5049C11.7203 20.4941 12.1148 20.5026 12.5349 20.5117C12.8396 20.5182 13.1577 20.5251 13.5 20.5251C15.2167 20.5251 16.7537 20.9557 17.8461 21.5867C18.9657 22.2335 19.5 23.0115 19.5 23.6642Z" fill="#E5EEF0" stroke="black"></path></svg>
+                    <h5 class="mt-2"></h5>SPA PROGRAMS</h5>
+                </div>
+                <div class="col-md-2 service-item-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><g clip-path="url(#clip0)"><path d="M44 21H33C34.2 20.1 35 18.6 35 17C35 14.2 32.8 12 30 12H18C15.2 12 13 14.2 13 17C13 18.6 13.8 20.1 15 21H4C1.8 21 0 22.8 0 25C0 27.2 1.8 29 4 29H6V47C6 47.5 6.5 48 7 48H11C11.5 48 12 47.5 12 47V38H36V47C36 47.5 36.5 48 37 48H41C41.5 48 42 47.5 42 47V29H44C46.2 29 48 27.2 48 25C48 22.8 46.2 21 44 21ZM14 17C14 14.8 15.8 13 18 13H28C29.4 13 30.5 14.1 30.5 15.5C30.5 16.9 29.4 18 28 18H19.5C19 18 18.5 17.5 18.5 17C18.5 16.5 19 16 19.5 16H24V15H19.5C18.4 15 17.5 15.9 17.5 17C17.5 18.1 18.4 19 19.5 19H28C29.9 19 31.5 17.4 31.5 15.5C31.5 14.5 31.1 13.7 30.5 13C32.5 13.2 34 14.9 34 17C34 19.2 32.2 21 30 21H18C15.8 21 14 19.2 14 17ZM11 47H7V29H11V47ZM36 37H12V35H36V37ZM36 34H12V29H36V34ZM41 47H37V29H41V47ZM44 28H4C2.3 28 1 26.7 1 25C1 23.3 2.3 22 4 22H44C45.7 22 47 23.3 47 25C47 26.7 45.7 28 44 28Z" fill="black"></path><path d="M11 29H7V47H11V29Z" fill="#E5EEF0"></path><path d="M41 29H37V47H41V29Z" fill="#E5EEF0"></path><path d="M47 25C47 26.7 45.7 28 44 28H4C2.3 28 1 26.7 1 25C1 23.3 2.3 22 4 22H44C45.7 22 47 23.3 47 25Z" fill="#E5EEF0"></path><path d="M36 35H12V37H36V35Z" fill="#E5EEF0"></path><path d="M28.4 10.3L27.6 9.70001L29.4 7.40001L27.3 4.70001L29.3 2.60001L27.6 0.300012L28.4 -0.299988L30.7001 2.70001L28.7001 4.80001L30.6 7.40001L28.4 10.3Z" fill="black"></path><path d="M23.4 10.3L22.6 9.70001L24.4 7.40001L22.3 4.70001L24.3 2.60001L22.6 0.300012L23.4 -0.299988L25.7001 2.70001L23.7001 4.80001L25.6 7.40001L23.4 10.3Z" fill="black"></path><path d="M18.4 10.3L17.6 9.70001L19.4 7.40001L17.3 4.70001L19.3 2.60001L17.6 0.300012L18.4 -0.299988L20.7001 2.70001L18.7001 4.80001L20.6 7.40001L18.4 10.3Z" fill="black"></path></g><defs><clipPath id="clip0"><rect width="48" height="48" fill="white"></rect></clipPath></defs></svg>
+                    <h5 class="mt-2"></h5>MASSAGES</h5>
+                </div>
+                <div class="col-md-2 service-item-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M26.7002 17.3C26.7002 24.3 21.7002 26.3 15.7002 31.6C9.5002 26.3 4.7002 24.3 4.7002 17.3C4.7002 10.4 12.5002 8.30005 15.6002 14.5C15.6002 14.6 15.8002 14.6 15.8002 14.5C18.8002 8.30005 26.7002 10.4 26.7002 17.3Z" fill="#E5EEF0"></path><path d="M16.3001 13.6001C16.2001 13.6001 16.2001 13.7001 16.3001 13.6001C16.1001 13.9001 16.0001 14.1001 15.9001 14.3001L15.8001 14.4001C15.8001 14.5001 15.6001 14.5001 15.6001 14.4001C15.6001 14.4001 15.6001 14.3001 15.5001 14.3001C15.4001 14.1001 15.3001 13.9001 15.1001 13.7001C15.1001 13.7001 15.1001 13.6001 15.0001 13.6001C11.7001 8.50006 4.6001 10.7001 4.6001 17.3001C4.6001 22.9001 7.7001 25.3001 12.0001 28.7001C13.1001 29.6001 14.3001 30.5001 15.6001 31.6001C16.9001 30.4001 18.2001 29.4001 19.4001 28.5001C23.6001 25.2001 26.6001 22.8001 26.6001 17.4001C26.7001 10.7001 19.6001 8.50006 16.3001 13.6001ZM22.7001 24.4001C21.7001 25.4001 20.6001 26.3001 19.3001 27.3001C19.2001 27.4001 19.0001 27.5001 18.9001 27.6001C17.9001 28.4001 16.8001 29.2001 15.7001 30.2001C14.7001 29.3001 13.7001 28.6001 12.8001 27.8001C12.5001 27.6001 12.3001 27.4001 12.0001 27.2001C10.7001 26.2001 9.5001 25.2001 8.6001 24.3001C6.8001 22.4001 5.7001 20.4001 5.7001 17.2001C5.7001 14.1001 7.4001 12.3001 9.2001 11.8001C11.1001 11.3001 13.3001 12.1001 14.7001 14.8001C15.1001 15.6001 16.3001 15.6001 16.7001 14.8001C18.0001 12.1001 20.3001 11.3001 22.2001 11.8001C24.1001 12.3001 25.8001 14.1001 25.8001 17.2001C25.7001 20.5001 24.6001 22.5001 22.7001 24.4001Z" fill="black"></path><path d="M42.3 24.9C42.3 31.9 37.3 33.9 31.3 39.2C25.1 33.9 20.3 31.9 20.3 24.9C20.3 18 28.1001 15.9 31.2001 22.1C31.2001 22.2 31.4 22.2 31.4 22.1C34.5 15.9 42.3 17.9 42.3 24.9Z" fill="white"></path><path d="M31.9 21.2C31.7 21.5 31.6 21.7 31.5 21.9C31.5 22 31.5 22 31.4 22C31.4 22.1 31.3001 22.1 31.2001 22C31.2001 22 31.2 21.9 31.1 21.9C31 21.7 30.9001 21.5 30.7001 21.3V21.2C27.4001 16.1 20.3 18.3 20.3 24.9C20.3 30.5 23.4001 32.9 27.7001 36.3C28.8001 37.2 30 38.1 31.3 39.2C32.6 38 33.9 37 35.1 36.1C39.3 32.8 42.3 30.4 42.3 25C42.3 18.3 35.2 16.1 31.9 21.2ZM38.3 32C37.3 33 36.2001 33.9 34.9001 34.9C34.8001 35 34.6 35.1 34.5 35.2C33.5 36 32.4 36.8 31.3 37.8C30.3 36.9 29.3 36.2 28.4 35.4C28.1 35.2 27.9 35 27.6 34.8C26.3001 33.8 25.1001 32.8 24.2001 31.9C22.4001 30 21.3 28 21.3 24.8C21.3 21.7 23 19.9 24.9 19.4C26.7 18.9 29 19.7 30.4 22.4C30.8 23.2 32.0001 23.2 32.4001 22.4C33.7001 19.7 36.0001 19 37.9001 19.4C39.8001 19.9 41.4001 21.7 41.4001 24.8C41.3001 28.1 40.2 30.1 38.3 32Z" fill="black"></path><path d="M34.8001 5.40002L35.5001 6.00002L32.4001 9.90002L31.6001 9.30002L34.8001 5.40002Z" fill="black"></path><path d="M41.4001 12.1L41.7001 13.1L36.9001 14.5L36.6001 13.5L41.4001 12.1Z" fill="black"></path><path d="M27.6001 1.1L26.6001 1L26.1001 6L27.1001 6.1L27.6001 1.1Z" fill="black"></path></svg>
+                    <h5 class="mt-2"></h5>FOR COUPLES</h5>
+                </div>
+                <div class="col-md-2 service-item-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M19.9999 3.70002C23.0999 6.30002 22.7999 11.6 19.3999 15.6C15.9999 19.6 10.7999 20.7 7.69989 18C4.69989 15.5 4.99989 10.1 8.39989 6.20002C11.7999 2.20002 16.9999 1.10002 19.9999 3.70002Z" fill="#E5EEF0"></path><path d="M41 20C41 30.5 33.4 39 24 39C14.6 39 7 30.5 7 20C7 9.5 14.6 1 24 1C33.4 1 41 9.5 41 20Z" fill="#E5EEF0"></path><path d="M36 30.5C36 38.5 29.2 47 24 47C17.8 47 12 38.5 12 30.5C12 22.5 16.8 15 24 15C31.2 15 36 22.5 36 30.5Z" fill="white"></path><path d="M24 1C21.7 1 19.5 1.5 17.4 2.5C14.5 1.9 10.9 3.2 8.29999 6.2C5.09999 9.9 4.69999 14.7 7.09999 17.5C6.99999 18.3 6.99999 19.1 6.99999 20C6.99999 25.4 8.99999 30.3 12.3 33.8C13.6 40.7 18.7 47 24 47C28.5 47 34.1 40.7 35.6 33.9C38.9 30.4 41 25.5 41 20C41 9.5 33.4 1 24 1ZM9.09999 6.8C11.1 4.5 13.6 3.3 15.8 3.3C11.6 5.9 8.39999 10.5 7.39999 16C5.99999 13.7 6.49999 9.9 9.09999 6.8ZM34.7 33.4C34.6 34 34.4 34.6 34.2 35.2C33.5 37.4 32.4 39.4 31.1 41.2C30 42.7 28.7 43.9 27.5 44.8C26.2 45.6 25 46 24 46C21.4 46 18.6 44.2 16.5 41.2C15.2 39.4 14.2 37.3 13.6 35.1C13.4 34.5 13.3 34 13.2 33.4C13 32.5 13 31.5 13 30.6C13 26.8 14.2 23.1 16.1 20.4C17.3 18.7 18.8 17.5 20.5 16.8C20.5 16.8 20.6 16.8 20.7 16.7C21.7 16.3 22.8 16.1 24 16.1C27.2 16.1 29.9 17.8 31.9 20.4C33.9 23.1 35 26.7 35 30.6C35 31.5 34.9 32.4 34.7 33.4ZM24 15H23.8C24.1 14.8 24.3 14.7 24.6 14.5C26.3 13.3 28 11.5 28.5 9.1L27.5 8.9C27.1 10.9 25.7 12.5 24 13.7C22.6 14.7 21.1 15.4 20.3 15.7C20.3 15.7 20.2 15.7 20.1 15.8C20.1 15.8 20 15.8 20 15.9C19.4 16.2 18.8 16.5 18.2 16.9C17.9 17.2 17.6 17.4 17.2 17.7C14 20.5 12 25.4 12 30.5C12 31 12 31.5 12.1 32C9.49999 28.8 7.99999 24.6 7.99999 20C7.99999 19.4 7.99999 18.9 8.09999 18.3C8.09999 17.9 8.19999 17.5 8.19999 17.1C9.09999 11 12.7 5.9 17.6 3.5C18 3.3 18.4 3.1 18.9 3C20.5 2.4 22.3 2 24 2C32.7 2 40 10 40 20C40 24.6 38.5 28.8 35.9 32C35.9 31.5 36 31 36 30.5C36 22.5 31.2 15 24 15Z" fill="black"></path><path d="M19 29.4C18 29.3 17.2 28.8 16.7 28.3L17.4 27.6C17.8 27.9 18.4 28.3 19.2 28.4C20 28.5 20.9 28.4 21.7 27.6L22.4 28.3C21.1999 29.4 20 29.6 19 29.4Z" fill="black"></path><path d="M28 29.4C27 29.3 26.2 28.8 25.7 28.3L26.4 27.6C26.8 27.9 27.4 28.3 28.2 28.4C29 28.5 29.9 28.4 30.7 27.6L31.4 28.3C30.1999 29.4 29 29.6 28 29.4Z" fill="black"></path><path d="M24.2001 40.9C22.6001 41.2 21.0001 40.7 20.1001 39.8L20.8001 39.1C21.4001 39.7 22.6001 40.1 24.0001 39.9C25.4001 39.7 26.9001 38.9 28.0001 37.2L28.8001 37.8C27.6001 39.7 25.9001 40.6 24.2001 40.9Z" fill="black"></path></svg>
+                    <h5 class="mt-2"></h5>FACIALS</h5>
+                </div>
+                <div class="col-md-2 service-item-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M4.30005 38.9C0.700049 34.2 1.60005 27.5 6.30005 23.9L26.2 8.5C30.9 4.9 37.6001 5.8 41.2001 10.5C44.8001 15.2 43.9001 21.9 39.2001 25.5L19.3 40.9C14.6 44.5 7.90005 43.6 4.30005 38.9Z" fill="#E5EEF0"></path><path d="M41.2001 10.5C37.6001 5.8 30.9 4.9 26.2 8.5L7.60005 22.9C7.50005 23 7.40005 23 7.30005 23.1L6.30005 23.9C1.60005 27.5 0.700049 34.2 4.30005 38.9C7.90005 43.6 14.6 44.5 19.3 40.9L39.2001 25.6C44.0001 21.9 44.8001 15.2 41.2001 10.5ZM38.7001 24.7L18.7 40.1C14.4 43.4 8.30005 42.6 5.10005 38.3C1.80005 34 2.60005 28 6.80005 24.7L8.20005 23.6C10.5 22.1 13.6 22 16 23.3C18.5 24.6 20.3 27.3 19.6 31.2C19.2 33.4 18.2 34.9 17 35.7C15.8 36.5 14.3 36.8 12.9 36.5C11.5 36.2 10.2 35.5 9.40005 34.5C8.60005 33.5 8.20005 32.1 8.70005 30.4C8.90005 29.6 9.80005 28.6 10.9 28C12 27.5 13.1 27.4 14.1 28.3C15 29.2 15.1 30.2 14.7 30.9C14.3 31.7 13.5 32.1 12.8 31.8L12.5 32.8C13.8 33.2 15.1 32.4 15.6 31.3C16.2 30.2 16.1 28.7 14.8 27.5C13.4 26.2 11.8 26.3 10.5 27C9.20005 27.7 8.20005 28.9 7.80005 30C7.30005 31.9 7.70005 33.7 8.70005 35C9.70005 36.3 11.2 37.1 12.8 37.4C14.4 37.7 16.2 37.4 17.6 36.4C19.1 35.4 20.2 33.7 20.6 31.3C21.4 26.9 19.4 23.8 16.5 22.3C14.8 21.4 12.9 21.1 11 21.4L26.8 9.3C31.1 6 37.2001 6.8 40.4001 11.1C43.7001 15.4 42.9001 21.5 38.7001 24.7Z" fill="black"></path><path d="M23.7 33C24.3 27.7 28.9999 31.6 30.2999 31.7V28C31.1999 25 32.5999 25.5 34.5999 26C35.7999 27.1 35.1999 30.2 34.7999 31.6C34.9999 31.5 35.7999 31 37.5999 30C39.8999 29.2 40.7 29.9 41.5 31.3C42.1 32.5 40.2999 34.2 39.2999 34.9C38.0999 35.1 35.8 35.6 36.5 35.8C37.4 36.1 39 38.5 39.7 39.7C40.1 40.9 39.9 40.5 37.7 42.2C35.6 42.3 33.4999 39.8 32.7999 38.5C32.6999 38.8 31.8999 40 30.2999 42.3C27.2999 43.9 26.8 41.2 26.9 39.7L28 37.4C28.2 37.2 28.5999 36.7 28.7999 36C25.8999 35.8 24.2 33.9 23.7 33Z" fill="white"></path><path d="M34.7 34.8C34.7 35.9 33.8 36.8 32.7 36.8C31.6 36.8 30.7 35.9 30.7 34.8C30.7 33.7 31.6 32.8 32.7 32.8C33.9 32.8 34.7 33.7 34.7 34.8Z" fill="#E5EEF0"></path><path d="M32.8 32.8C31.7 32.8 30.8 33.7 30.8 34.8C30.8 35.9 31.7 36.8 32.8 36.8C33.9 36.8 34.8 35.9 34.8 34.8C34.7 33.7 33.8 32.8 32.8 32.8ZM32.8 35.7C32.3 35.7 31.8 35.3 31.8 34.7C31.8 34.1 32.2 33.7 32.8 33.7C33.3 33.7 33.8 34.1 33.8 34.7C33.8 35.3 33.3 35.7 32.8 35.7Z" fill="black"></path><path d="M41.9 30.9C41.6 30.1 41.1 29.6 40.4 29.3C39.8 29.1 39 29.1 38.3 29.3C37.4 29.5 36.5 30 35.7 30.5C35.9 29.6 35.9 28.6 35.8 27.7C35.7 27 35.5 26.3 35 25.8C34.5 25.3 33.9 24.9 33 24.9C32.1 24.9 31.4 25.2 30.9 25.7C30.4 26.2 30.1 26.9 29.9 27.6C29.6 28.6 29.6 29.8 29.7 30.8C28.8 30.3 27.7 29.9 26.6 29.7C25.9 29.6 25.2 29.6 24.6 29.9C23.9 30.2 23.5 30.8 23.2 31.6C23 32.4 23.1 33.2 23.4 33.8C23.8 34.4 24.3 34.9 25 35.3C26 35.8 27.1 36.2 28.1 36.4C27.5 37.2 26.8 38.2 26.4 39.2C26.2 39.9 26 40.6 26.1 41.3C26.2 42 26.6 42.7 27.3 43.2C28 43.7 28.8 43.8 29.4 43.6C30.1 43.4 30.6 43 31.1 42.4C31.8 41.6 32.3 40.6 32.7 39.7C33.3 40.5 34 41.4 34.9 42.1C35.5 42.5 36.2 42.9 36.9 42.9C37.6 43 38.4 42.8 39 42.2C39.7 41.6 40 41 40 40.3C40 39.6 39.7 38.9 39.3 38.3C38.8 37.5 38 36.7 37.3 36.1C38.2 35.8 39.3 35.4 40.1 34.8C40.7 34.4 41.2 33.9 41.5 33.2C42.1 32.5 42.2 31.7 41.9 30.9ZM40.9 32.7C40.7 33.1 40.3 33.5 39.8 33.9C38.8 34.6 37.4 35.1 36.4 35.3C36.2 35.3 36 35.3 35.9 35.5C35.7 35.7 35.8 36 36 36.2C36.9 36.8 38 37.8 38.7 38.8C39 39.3 39.2 39.8 39.2 40.2C39.2 40.6 39 41 38.6 41.4C38.1 41.8 37.7 41.9 37.2 41.9C36.7 41.9 36.2 41.6 35.7 41.3C34.7 40.6 33.8 39.4 33.3 38.5C33.3 38.4 33.2 38.4 33.1 38.3C33.1 38.2 33 38.2 32.9 38.2C32.6 38.1 32.4 38.3 32.3 38.5C32 39.5 31.3 40.9 30.5 41.8C30.1 42.3 29.7 42.6 29.3 42.7C28.9 42.8 28.5 42.7 28 42.4C27.5 42 27.3 41.6 27.2 41.2C27.1 40.7 27.2 40.2 27.4 39.6C27.8 38.4 28.7 37.2 29.5 36.5C29.7 36.3 29.7 36.1 29.6 35.9C29.5 35.7 29.4 35.6 29.2 35.6C28.2 35.5 26.7 35.2 25.6 34.5C25.1 34.2 24.6 33.8 24.4 33.4C24.2 33 24.1 32.5 24.2 31.9C24.4 31.3 24.7 31 25 30.8C25.4 30.6 25.9 30.6 26.5 30.7C27.7 30.9 29.1 31.5 30 32.1C30 32.1 30.1 32.1 30.2 32.2C30.3 32.2 30.4 32.2 30.5 32.2C30.8 32.2 31 31.9 30.9 31.6C30.7 30.6 30.7 29.1 31 27.9C31.2 27.3 31.4 26.8 31.7 26.5C32 26.2 32.5 26 33.1 26C33.7 26 34.1 26.2 34.3 26.5C34.6 26.8 34.7 27.3 34.8 27.9C35 29.1 34.7 30.6 34.4 31.6C34.3 31.9 34.5 32.2 34.7 32.2C34.9 32.3 35.1 32.2 35.2 32C36 31.4 37.3 30.6 38.5 30.4C39.1 30.3 39.6 30.2 40 30.4C40.4 30.5 40.7 30.8 40.9 31.4C41.2 31.8 41.1 32.3 40.9 32.7Z" fill="black"></path></svg>
+                    <h5 class="mt-2"></h5>BODY TREATMENTS</h5>
+                </div>
+                <div class="col-md-2 service-item-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M26.7002 17.3C26.7002 24.3 21.7002 26.3 15.7002 31.6C9.5002 26.3 4.7002 24.3 4.7002 17.3C4.7002 10.4 12.5002 8.30005 15.6002 14.5C15.6002 14.6 15.8002 14.6 15.8002 14.5C18.8002 8.30005 26.7002 10.4 26.7002 17.3Z" fill="#E5EEF0"></path><path d="M16.3001 13.6001C16.2001 13.6001 16.2001 13.7001 16.3001 13.6001C16.1001 13.9001 16.0001 14.1001 15.9001 14.3001L15.8001 14.4001C15.8001 14.5001 15.6001 14.5001 15.6001 14.4001C15.6001 14.4001 15.6001 14.3001 15.5001 14.3001C15.4001 14.1001 15.3001 13.9001 15.1001 13.7001C15.1001 13.7001 15.1001 13.6001 15.0001 13.6001C11.7001 8.50006 4.6001 10.7001 4.6001 17.3001C4.6001 22.9001 7.7001 25.3001 12.0001 28.7001C13.1001 29.6001 14.3001 30.5001 15.6001 31.6001C16.9001 30.4001 18.2001 29.4001 19.4001 28.5001C23.6001 25.2001 26.6001 22.8001 26.6001 17.4001C26.7001 10.7001 19.6001 8.50006 16.3001 13.6001ZM22.7001 24.4001C21.7001 25.4001 20.6001 26.3001 19.3001 27.3001C19.2001 27.4001 19.0001 27.5001 18.9001 27.6001C17.9001 28.4001 16.8001 29.2001 15.7001 30.2001C14.7001 29.3001 13.7001 28.6001 12.8001 27.8001C12.5001 27.6001 12.3001 27.4001 12.0001 27.2001C10.7001 26.2001 9.5001 25.2001 8.6001 24.3001C6.8001 22.4001 5.7001 20.4001 5.7001 17.2001C5.7001 14.1001 7.4001 12.3001 9.2001 11.8001C11.1001 11.3001 13.3001 12.1001 14.7001 14.8001C15.1001 15.6001 16.3001 15.6001 16.7001 14.8001C18.0001 12.1001 20.3001 11.3001 22.2001 11.8001C24.1001 12.3001 25.8001 14.1001 25.8001 17.2001C25.7001 20.5001 24.6001 22.5001 22.7001 24.4001Z" fill="black"></path><path d="M42.3 24.9C42.3 31.9 37.3 33.9 31.3 39.2C25.1 33.9 20.3 31.9 20.3 24.9C20.3 18 28.1001 15.9 31.2001 22.1C31.2001 22.2 31.4 22.2 31.4 22.1C34.5 15.9 42.3 17.9 42.3 24.9Z" fill="white"></path><path d="M31.9 21.2C31.7 21.5 31.6 21.7 31.5 21.9C31.5 22 31.5 22 31.4 22C31.4 22.1 31.3001 22.1 31.2001 22C31.2001 22 31.2 21.9 31.1 21.9C31 21.7 30.9001 21.5 30.7001 21.3V21.2C27.4001 16.1 20.3 18.3 20.3 24.9C20.3 30.5 23.4001 32.9 27.7001 36.3C28.8001 37.2 30 38.1 31.3 39.2C32.6 38 33.9 37 35.1 36.1C39.3 32.8 42.3 30.4 42.3 25C42.3 18.3 35.2 16.1 31.9 21.2ZM38.3 32C37.3 33 36.2001 33.9 34.9001 34.9C34.8001 35 34.6 35.1 34.5 35.2C33.5 36 32.4 36.8 31.3 37.8C30.3 36.9 29.3 36.2 28.4 35.4C28.1 35.2 27.9 35 27.6 34.8C26.3001 33.8 25.1001 32.8 24.2001 31.9C22.4001 30 21.3 28 21.3 24.8C21.3 21.7 23 19.9 24.9 19.4C26.7 18.9 29 19.7 30.4 22.4C30.8 23.2 32.0001 23.2 32.4001 22.4C33.7001 19.7 36.0001 19 37.9001 19.4C39.8001 19.9 41.4001 21.7 41.4001 24.8C41.3001 28.1 40.2 30.1 38.3 32Z" fill="black"></path><path d="M34.8001 5.40002L35.5001 6.00002L32.4001 9.90002L31.6001 9.30002L34.8001 5.40002Z" fill="black"></path><path d="M41.4001 12.1L41.7001 13.1L36.9001 14.5L36.6001 13.5L41.4001 12.1Z" fill="black"></path><path d="M27.6001 1.1L26.6001 1L26.1001 6L27.1001 6.1L27.6001 1.1Z" fill="black"></path></svg>
+                    <h5 class="mt-2"></h5>FOR COUPLES</h5>
+                </div>
+            </div>
+            <p style="font-size: 18px;">Our crazy-talented master stylists will connect with you on a personal level, <br> using their creativity and skill to envision a natural, ready-to-wear style that <br> embraces your individuality and lifestyle.</p>
+            <div class="text-center mt-5 mb-5">
+                <a href="service.html"><button class="btn btn-dark">VIEW SERVICE MENU</button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div> -->
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">Our Services</h1>
+    
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <img src="https://orane.com/wp-content/uploads/2024/07/body-care-spa-body.webp" width="100%" height="250px" alt="Gel Overlay" class="service-image">
+            <h2 class="service-title">SPA PROGRAMS</h2>
+            <a href="service.html" class="service-link">Learn More <span class="arrow-icon">→</span></a>
+
+        </div>
+        <div class="col-md-4">
+            <img src="https://static.toiimg.com/photo/48806487.cms" width="100%" height="250px" alt="Manicure" class="service-image">
+            <h2 class="service-title">MASSAGES</h2>
+            <a href="service.html" class="service-link">Learn More <span class="arrow-icon">→</span></a>
+
+        </div>
+        <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVyxdCGeb60W3dfckG4dl8xfBcksvdmVsEKvoThsb6BeGjoQHLB2qzYaIJT6RB17LWCis&usqp=CAU" width="100%" height="250px" alt="Pedicure" class="service-image">
+            <h2 class="service-title">FOR COUPLES</h2>
+            <a href="service.html" class="service-link">Learn More <span class="arrow-icon">→</span></a>
+
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmB9UOlNKfD6khbykBRM9svPnMgf8jXRNcLA&s" width="100%" height="250px" alt="Gel Overlay" class="service-image">
+            <h2 class="service-title">FACIALS</h2>
+            <a href="service.html" class="service-link">Learn More <span class="arrow-icon">→</span></a>
+
+        </div>
+        <div class="col-md-4">
+            <img src="https://media.licdn.com/dms/image/C5612AQFu0EHLwQwV3w/article-cover_image-shrink_720_1280/0/1520135319298?e=2147483647&v=beta&t=aM9cMhY5uKYUpinS5PTz4lkxc5MDghN3VHKhulBjw2s" width="100%" height="250px" alt="Manicure" class="service-image">
+            <h2 class="service-title">BODY TREATMENTS</h2>
+            <a href="service.html" class="service-link">Learn More <span class="arrow-icon">→</span></a>
+
+        </div>
+        <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVyxdCGeb60W3dfckG4dl8xfBcksvdmVsEKvoThsb6BeGjoQHLB2qzYaIJT6RB17LWCis&usqp=CAU" width="100%" height="250px" alt="Pedicure" class="service-image">
+            <h2 class="service-title">FOR COUPLES</h2>
+            <a href="service.html" class="service-link">Learn More <span class="arrow-icon">→</span></a>
+
+        </div>
+    </div>
+</div>
+
+<div class="sidebar">
+    <a href="shop.html" class="sidebar-icon">🛒</a>
+    <a href="contact.html" class="sidebar-icon">💬</a>
+    <a href="appointment.html" class="sidebar-icon">📅</a>
+</div>
+
+<div class="back-to-top">↑</div>
+
+<!-- home philosophy start -->
+<div class="container-fluid" style="background-color: #e5eef0;">
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-lg-6">
+                <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-140-1024x1024.jpg" width="100%" height="500px" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="pt-5" style="font-family: EB Garamond;">Philosophy</h1>
+                <p style="white-space: pre-wrap; font-size: 18px; padding-top: 20px;">We started as a small spa salon in Islington, London. Our main idea was to create the best spa salon in the world. Can there be compromises in the best salon in the world? Our answer is always no, we care about the best quality, we hire the best specialists and provide the best customer service. This approach allowed us to grow and create awesome team that is passionate about everything we do.</p>
+                <div class="text-start mt-4">
+                    <a href="philosophy.html"><button type="button" class="btn btn-outline-dark">LEARN MORE</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- home philosophy end -->
+
+<!-- carousel start -->
+ <div class="container mt-5 mb-5">
+    <div id="cherie-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-148.jpg" class="d-block w-100" alt="Woman in pool">
+          </div>
+          <div class="carousel-item">
+            <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-147.jpg" class="d-block w-100" alt="Woman in pool">
+          </div>
+          <div class="carousel-item">
+            <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-145.jpg" class="d-block w-100" alt="Woman in pool">
+          </div>
+          <div class="carousel-item">
+            <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-146.jpg" class="d-block w-100" alt="Woman in pool">
+          </div>
+          <!-- Add more carousel-item divs for additional slides -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cherie-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cherie-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#cherie-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#cherie-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#cherie-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#cherie-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+      </div>
+</div>
+<!-- carousel end -->
+
+<!-- gift carousel start -->
+<div class="container-fluid" style="background-color: #e5eef0;">
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-lg-6 pt-5">
+                <h1 class="pt-5" style="font-family: EB Garamond;">Gift Cards</h1>
+                <p style="white-space: pre-wrap; font-size: 18px; padding-top: 20px;">Our crazy-talented master stylists will connect with you on a personal level, using their creativity and skill to envision a natural, ready-to-wear style that embraces your individuality and lifestyle. Our crazy-talented master stylists will connect with you on a personal level, using their creativity and skill to envision a natural, ready style that embraces your individuality and lifestyle.</p>
+                <div class="text-start mt-4">
+                    <a href="gift_cards.html"><button type="button" class="btn btn-outline-dark">LEARN MORE</button></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators1" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/main12.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/main11.png" class="d-block w-100" alt="...">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- gift carousel end -->
+
+<!-- beauty box carousel start -->
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-144.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-142.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/09/image-143.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-6 pt-5">
+                <h1 class="pt-5" style="font-family: EB Garamond;">Beauty Box</h1>
+                <p style="white-space: pre-wrap; font-size: 18px; padding-top: 20px;">Our crazy-talented master stylists will connect with you on a personal level, using their creativity and skill to envision a natural, ready-to-wear style that embraces your individuality and lifestyle. Our crazy-talented master stylists will connect with you on a personal level, using their creativity and skill to envision a natural, ready style that embraces your individuality and lifestyle.</p>
+                <div class="text-start mt-4">
+                   <a href="shop.html"><button type="button" class="btn btn-outline-dark">SHOP NOW</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- beauty box carousel end -->
+
+<!-- words carousel start -->
+<div class="container-fluid" style="background-color: #e5eef0;">
+    <div class="row pt-5 pb-5">
+        <div class="col-lg-3">
+
+        </div>
+        <div class="col-lg-6">
+            <h5 style="font-family: jost; text-align: center;">Words from our happy clients</h5>
+            <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p style="text-align: center; font-size: 22px; font-weight: 500;">“Healthy body and healthy soul are so <br> important. This place is all about that, come <br> and make sure. Gift certificate to this spa <br>
+                         salon was the best gift I've ever had. ”</p>
+                    <p class="text-center">Maria Collins, Chérie New York</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="text-align: center; font-size: 22px; font-weight: 500;">“This magic place helps me to deal with all my <br> stress. Can't wait to enjoy make next spa <br> program.”</p>
+                   <p class="text-center">Anna Stuard</p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+</div>
+</div>
+<!-- words carousel end -->
+
+<!-- shop home start -->
+<div class="container my-5">
+    <div class="row">
+        <h1 class="mb-5" style="font-family: EB garamond; text-align: center;">Shop</h1>
+        <div class="col-md-3">
+            <div class="card position-relative">
+                <a href="shop.html"><img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/07/2@4x-1-600x798.jpg" class="card-img-top" alt="Product Image"></a>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Facial Cleanser</h5>
+                    <p class="card-price">
+                        <span class="old-price">$25</span>
+                        $19
+                    </p>
+                </div>
+                <div class="card-sale-badge">Sale!</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card position-relative">
+                <a href="shop.html"><img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/07/Item-1@4x-600x798.jpg" class="card-img-top" alt="Product Image"></a>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Eye Cream</h5>
+                    <p class="card-price">
+                        $54
+                    </p>
+                    <div class="card-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card position-relative">
+                <a href="shop.html"><img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/07/Group-160@4x-600x798.jpg" class="card-img-top" alt="Product Image"></a>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Super Glow</h5>
+                    <p class="card-price">
+                        <span class="old-price">$28</span>
+                        $21
+                    </p>
+                </div>
+                <div class="card-sale-badge">Sale!</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card position-relative">
+                <a href="shop.html"><img src="https://firstsight.design/cherie/spa/wp-content/uploads/2020/06/15@4x-600x798.jpg" class="card-img-top" alt="Product Image"></a>
+                <div class="card-body text-center">
+                    <h5 class="card-title">Facial Balancing Gel</h5>
+                    <p class="card-price">
+                        $32
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-5">
+        <a href="shop.html"><button type="button" class="btn btn-outline-dark">SHOP ALL</button></a>
+    </div>
+</div>
+
+<!-- shop home end -->
+
+<div class="container-fluid mt-5 mb-5" style="background-color: #e5eef0;">
+    <div class="row pt-5 pb-5">
+        <div class="col-lg-6 text-center">
+            <h5>Follow Us</h5>
+            <p class="mb-4">Don't miss promotions, follow us for the latest news</p>
+            <i style="font-size: 30px;" class="fab fa-instagram"></i>&nbsp;&nbsp;
+            <i style="font-size: 30px;" class="fab fa-facebook"></i>
+        </div>
+        <div class="col-lg-6">
+            <p style="font-size: 20px;">We don't keep our beauty secrets</p>
+            <p>Subscribe now and thank us later</p>
+            <input type="email" class="subscribe" placeholder="you@example.com">
+            <button class="btn btn-outline-dark">SUBSCRIBE</button>
+        </div>
+    </div>
+</div>
+
+<!-- instagram start -->
+<div class="container-fluid gx-0 mt-5 mb-5">
+    <div class="row insta g-0">
+        <h1 class="mb-5 text-center" style="font-family: EB Garamond;">Instagram</h1>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118919993_336994814379572_4884935321224357521_nfull.jpg" class="img-fluid" alt="Person in pool">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118950787_618647702178328_5032709683719920097_nfull.jpg" class="img-fluid" alt="Eye through leaf">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118853579_945229739290044_8285672200633838232_nfull.jpg" class="img-fluid" alt="Woman's back">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118940843_643710056568647_1472379537086132401_nfull.jpg" class="img-fluid" alt="Pool with plants">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118852426_317026369717220_5143444474379499320_nfull.jpg" class="img-fluid" alt="Hands massaging">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118863405_801610797277130_78700775374722933_nfull.jpg" class="img-fluid" alt="Painted nails">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118966159_2751396495075143_2870321285238189544_nfull.jpg" class="img-fluid" alt="Chair and table">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118889935_127828595361486_3010123149326061613_nfull.jpg" class="img-fluid" alt="Bowl of fruit">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118920353_2733911126866990_449958985093805453_nfull.jpg" class="img-fluid" alt="Orange couch">
+      </div>
+      <div class="col-4 col-md-2-4 instaimg">
+        <img src="https://firstsight.design/cherie/spa/wp-content/uploads/sb-instagram-feed-images/118959677_129174458890962_2161142661408811474_nfull.jpg" class="img-fluid" alt="Plants by pool">
+      </div>
+    </div>
+    <div class="text-center mt-5">
+        <button type="button" class="btn btn-outline-dark">FOLLOW US @BEAUTYSALON</button>
+    </div>
+  </div>
+  <hr class="mt-5">
+<!-- instagram end -->
+
+<div class="container mt-5 mb-5">
+    <div class="row text-center">
+            <div class="col-lg-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="11.5" y="2.5" width="24" height="43" rx="1.5" fill="#E5EEF0" stroke="black"></rect><rect x="20" y="7" width="7" height="1" fill="black"></rect><circle cx="23.5" cy="39.5" r="1.5" fill="black"></circle></svg>
+                <h5 class="mt-3" style="font-family: Jost;">Contact</h5>
+                <p>T: 070 9485 7568<br>info@beautysalon.com</p>
+            </div>
+            <div class="col-lg-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24.5" cy="24.5" r="19" fill="#E5EEF0" stroke="black"></circle><path d="M24 12.5V25.5L30 31.5" stroke="black"></path></svg>
+                <h5 class="mt-3" style="font-family: Jost;">Hours</h5>
+                <p>Mon to Fri: 7:30 am — 1:00 am<br>Sat: 9:00 am — 1:00 am<br>Sun: 9:00 am — 11:30 pm</p>
+            </div>
+            <div class="col-lg-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M39.5 18.5C39.5 22.9086 37.6893 26.8697 34.714 31.1637C32.7635 33.9788 30.3434 36.8965 27.6388 40.1573C26.3183 41.7493 24.93 43.4232 23.4953 45.2068C22.2962 43.7506 21.1349 42.3668 20.022 41.0407C16.9832 37.4197 14.3051 34.2285 12.2027 31.1656C9.2574 26.8745 7.5 22.9121 7.5 18.5C7.5 9.66344 14.6634 2.5 23.5 2.5C32.3366 2.5 39.5 9.66344 39.5 18.5Z" fill="#E5EEF0" stroke="black"></path><circle cx="23.5" cy="17.5" r="6" fill="white" stroke="black"></circle></svg>
+                <h5 class="mt-3" style="font-family: Jost;">Location</h5>
+                <p>85 Royal Mint Street,<br>London, E1 8LG, UK</p>
+            </div>
+    </div>
+</div>
+
+ <!-- Footer -->
+ <footer class="custom-footer text-center text-md-left">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <h5>CHÉRIE</h5>
+                <p>© 2020 Chérie</p>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="service.html">Service Menu</a></li>
+                    <li><a href="appointment.html">Book Appointment</a></li>
+                    <li><a href="philosophy.html">Philosophy</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tips.html">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5>More Links</h5>
+                <ul>
+                    <li><a href="gift_cards.html">Gift Cards</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="#">Franchise</a></li>
+                    <li><a href="#">Rentals</a></li>
+                    <li><a href="#">T&C</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5>Stay Connected</h5>
+                <p>We don't keep our beauty secrets</p>
+                <input type="email" class="subscribe" placeholder="you@example.com">
+                <button class="btn-subscribe">SUBSCRIBE</button>
+                <div class="social-icons mt-3">
+                    <a href=""><i style="color: black; font-size: 24px;" class="fab fa-instagram"></i></a>
+         <a href=""><i style="color: black; font-size: 24px;" class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelector('.back-to-top').addEventListener('click', function() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+</script>
+
+</body>
+</html>

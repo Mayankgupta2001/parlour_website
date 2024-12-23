@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chérie Beauty Salon</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="color: white; font-weight: 600; font-size: 30px;">CHÉRIE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="appointment.html">Book Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="philosophy.html">Philosophy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gift_cards.html">Gift Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tips.html">Tips</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="margin-right: 25px;">
+                <!-- <a href="#" class="btn btn-outline-light">Book Appointment</a> -->
+                <a href=""><i style="color: whitesmoke; font-size: 24px;" class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+                <a href=""><i style="color: whitesmoke; font-size: 24px;" class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section-appointment">
+        <h1>Book Appointment</h1>
+    </section>
+
+    <div class="container-fluid pt-5" style="background-color: #f8f9fa;">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="appointment-form mb-5">
+                    <h2>Book an Appointment</h2>
+                    <form>
+                        <!-- Service Selection -->
+                        <div class="mb-3">
+                            <label for="service" class="form-label">Service</label>
+                            <select class="form-select" id="service" required>
+                                <option selected disabled value="">Select a Service</option>
+                                <option value="1">Service 1</option>
+                                <option value="2">Service 2</option>
+                                <option value="3">Service 3</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="employee" class="form-label">Employee</label>
+                            <select class="form-select" id="employee" required>
+                                <option selected disabled value="">Select an Employee</option>
+                                <option value="1">Employee 1</option>
+                                <option value="2">Employee 2</option>
+                                <option value="3">Employee 3</option>
+                            </select>
+                        </div>
+
+                        <!-- Date & Time -->
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Time</label>
+                            <input type="time" class="form-control" id="time" required>
+                        </div>
+
+                        <!-- Your Information -->
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-success">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="11.5" y="2.5" width="24" height="43" rx="1.5" fill="#E5EEF0" stroke="black"></rect>
+                            <rect x="20" y="7" width="7" height="1" fill="black"></rect>
+                            <circle cx="23.5" cy="39.5" r="1.5" fill="black"></circle>
+                        </svg>
+                        <h5 class="mt-2">Contact</h5>
+                        <p>T: 070 9485 7568<br>info@beautysalon.com</p>
+                    </div>
+
+                    <div class="col-lg-12 mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24.5" cy="24.5" r="19" fill="#E5EEF0" stroke="black"></circle>
+                            <path d="M24 12.5V25.5L30 31.5" stroke="black"></path>
+                        </svg>
+                        <h5 class="mt-2">Hours</h5>
+                        <p>Mon - Fri: 8 am — 8 pm<br>Sat: 9 am — 6 pm<br>Sun: 9 am — 4 pm</p>
+                    </div>
+
+                    <div class="col-lg-12 mt-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M39.5 18.5C39.5 22.9086 37.6893 26.8697 34.714 31.1637C32.7635 33.9788 30.3434 36.8965 27.6388 40.1573C26.3183 41.7493 24.93 43.4232 23.4953 45.2068C22.2962 43.7506 21.1349 42.3668 20.022 41.0407C16.9832 37.4197 14.3051 34.2285 12.2027 31.1656C9.2574 26.8745 7.5 22.9121 7.5 18.5C7.5 9.66344 14.6634 2.5 23.5 2.5C32.3366 2.5 39.5 9.66344 39.5 18.5Z"
+                                fill="#E5EEF0" stroke="black"></path>
+                            <circle cx="23.5" cy="17.5" r="6" fill="white" stroke="black"></circle>
+                        </svg>
+                        <h5 class="mt-2">Location</h5>
+                        <p>85 Royal Mint Street,<br>London, E1 8LG, UK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="custom-footer text-center text-md-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5>CHÉRIE</h5>
+                    <p>© 2020 Chérie</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="service.html">Service Menu</a></li>
+                        <li><a href="appointment.html">Book Appointment</a></li>
+                        <li><a href="philosophy.html">Philosophy</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="tips.html">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>More Links</h5>
+                    <ul>
+                        <li><a href="gift_cards.html">Gift Cards</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="#">Franchise</a></li>
+                        <li><a href="#">Rentals</a></li>
+                        <li><a href="#">T&C</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5>Stay Connected</h5>
+                    <p>We don't keep our beauty secrets</p>
+                    <input type="email" class="subscribe" placeholder="you@example.com">
+                    <button class="btn-subscribe">SUBSCRIBE</button>
+                    <div class="social-icons mt-3">
+                        <a href=""><i style="color: black; font-size: 24px;" class="fab fa-instagram"></i></a>
+             <a href=""><i style="color: black; font-size: 24px;" class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
